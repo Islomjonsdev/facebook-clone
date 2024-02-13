@@ -1,0 +1,26 @@
+.navbar {
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 111px;
+        height: 56px;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          background-color: #f2f3f5;
+        }
+        svg {
+          width: 24px;
+          height: 24px;
+          color: #65676b;
+        }
+      }
+    }
+  }
+}

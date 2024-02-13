@@ -1,0 +1,13 @@
+.container {
+  max-width: 1480px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  .home__wrapper {
+    display: flex;
+    gap: 20px;
+  }
+}
